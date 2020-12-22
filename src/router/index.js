@@ -8,6 +8,8 @@ const Lei = () => import('views/lei/Lei')
 const My= () => import('views/my/My')
 const Car = () => import('views/car/Car')
 const Home = () => import('views/home/Home')
+const Detail = () => import('views/detail/Detail')
+
 
 //1.安装插件
 Vue.use(VueRouter)
@@ -40,6 +42,10 @@ const routes = [
   {
     path: '/car',
     component: Car
+  },
+  {
+    path: '/detail/:iid',
+    component: Detail
   }
 ]
 //2.创建路由对象

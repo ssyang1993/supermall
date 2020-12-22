@@ -1,11 +1,18 @@
 <template>
-  <p>分类</p>
+  <div class="scroll">
+
+  </div>
 </template>
 
 <script>
+
+
   export default {
-    name: "lei"
+    name: "lei",
+
   }
+
+
 </script>
 
 <style scoped>
